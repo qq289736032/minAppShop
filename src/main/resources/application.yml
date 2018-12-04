@@ -1,0 +1,14 @@
+debug: true
+logging:
+  level:
+    org.springframework.web: info
+    com.github.binarywang.demo.wx.miniapp: debug
+    cn.binarywang.wx.miniapp: debug
+wx:
+  miniapp:
+    configs:
+      appid: wx14d5ce0e84a7ba10 #appid
+      secret: c9c0f89a6b4d4c90521e5089c6e79858 #Secret
+      token: #token
+      aesKey: #EncodingAESKey
+      msgDataFormat: JSON
